@@ -38,7 +38,7 @@ const RouteSwitch = () => {
 
   return (
     <BrowserRouter>
-    <HashRouter>
+    
      <NavBar items={items} removeCard={removeCard}/>
 
       <Routes>
@@ -53,7 +53,7 @@ const RouteSwitch = () => {
         }
       </Routes>
      
-    </HashRouter>
+    
     </BrowserRouter>
   );
 };
